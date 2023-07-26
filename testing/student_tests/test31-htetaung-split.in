@@ -1,0 +1,35 @@
+I definitions.inc
+> init
+<<<
+> branch other
+<<<
++ f.txt wug.txt
+> add f.txt
+<<<
+> commit "Added f.txt"
+<<<
+> checkout other
+<<<
++ g.txt notwug.txt
+> add g.txt
+<<<
+> commit "added g.txt"
+<<<
+> branch htetaung
+<<<
+> checkout master
+<<<
+> merge other
+<<<
+E f.txt
+E g.txt
+> checkout htetaung
+<<<
++ h.txt wug2.txt
+> add h.txt
+<<<
+> commit "Added h.txt"
+<<<
+> merge master
+<<<
+
